@@ -118,6 +118,10 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': 'debug.log',
         },
+        'mail_admins': {        # 跟 Error Reporter mail Send 機制一樣
+            'level': 'NOTSET',
+            'class': 'django.utils.log.AdminEmailHandler',
+        },
     },
     'loggers': {
         'django': {
@@ -125,7 +129,18 @@ LOGGING = {
             'level': 'NOTSET',
             'propagate': True,
         },
+        # 'django.request': {                 # 客製化先前的 Email Error Reporter 的處理設定
+        #     'handlers': ['mail_admins'],
+        #     'level': 'INFO',
+        # }
     },
 }
+
+#
+# 所以當你 Override LOGGING 變數的時候要記得把 django.utils.log.AdminEmailHandler 加回去他才會寄送 Error Message 給管理員。
+#
+# By default, Django configures the django.request logger so that all messages with ERROR or CRITICAL level are sent to AdminEmailHandler, as long as the DEBUG setting is set to False.
+# All messages reaching the django catch-all logger when DEBUG is True are sent to the console. They are simply discarded (sent to NullHandler) when DEBUG is False.
+# See also Configuring logging to learn how you can complement or replace this default logging configuration.
 
 ###################################################################################################

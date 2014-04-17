@@ -19,3 +19,45 @@ Traceback (most recent call last):
   File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
     print 1 + '1'  # will raise Exception
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "C:\python27\lib\site-packages\django\core\handlers\base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\scott\workspace\error_report_site_study\index\views.py", line 10, in home
+    print 1 + '1'  # will raise Exception
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
